@@ -1,0 +1,16 @@
+{
+  "name": "javascript",
+  "devDependencies": {
+    "eslint": "^0.23.0",
+    "git-guppy": "^1.0.0",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^0.14.0",
+    "gulp-filter": "^2.0.2",
+    "gulp-jscs": "^1.6.0",
+    "husky": "^0.8.1",
+    "jscs": "^1.13.1"
+  },
+  "scripts": {
+    "precommit": "node_modules/.bin/gulp pre-commit"
+  }
+}
