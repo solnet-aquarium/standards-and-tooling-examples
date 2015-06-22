@@ -1,0 +1,13 @@
+{
+    "name": "solnet/javascript-php",
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^2.3"
+    },
+    "authors": [
+        {
+            "name": "Michael Robinson",
+            "email": "michael.robinson@solnet.co.nz"
+        }
+    ],
+    "require": {}
+}
