@@ -12,6 +12,7 @@
     "jscs": "^1.13.1"
   },
   "scripts": {
-    "precommit": "node_modules/.bin/gulp pre-commit"
+    "precommit": "node_modules/.bin/gulp pre-commit",
+    "lint": "node_modules/.bin/gulp lint"
   }
 }

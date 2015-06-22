@@ -7,7 +7,7 @@ var eslint = require('gulp-eslint');
 var jscs = require('gulp-jscs');
 var phpcs = require('gulp-phpcs');
 
-gulp.task('pre-commit-javascript', guppy.src('pre-commit', function(filesBeingCommitted) {
+gulp.task('pre-commit', guppy.src('pre-commit', function(filesBeingCommitted) {
   var jsFilter = gulpFilter(['*.js']);
   var phpFilter = gulpFilter(['*.php']);
 
